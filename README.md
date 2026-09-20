@@ -2,7 +2,18 @@
 
 A simple, phone-friendly bill splitter. Enter the bill total, pick a tip percentage (or enter a custom one), set how many people are splitting it, and optionally mark one person as paying double. Shows the tip amount, total with tip, and what each person owes — in large, high-contrast text.
 
-No build step, no dependencies — it's a single static `index.html` file.
+It's also an installable app (PWA) — once deployed, you can add it to your phone's home screen and it opens full-screen like a native app, with an icon and no browser bar, and keeps working with no signal.
+
+No build step, no dependencies — it's static files (`index.html`, `manifest.json`, `sw.js`, `icons/`).
+
+## Install it on your phone
+
+Once it's live on Vercel (steps below):
+
+- **iPhone (Safari):** open the link, tap the Share icon, then "Add to Home Screen."
+- **Android (Chrome):** open the link, tap the ⋮ menu, then "Install app" (or "Add to Home screen").
+
+It'll then appear as its own app icon, launch full-screen, and keep working without a connection.
 
 ## Deploy to Vercel
 
